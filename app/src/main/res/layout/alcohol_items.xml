@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_parent"
+    >
+
+    <TextView
+        android:id="@+id/alco_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@+id/alco_image"
+        android:text="@string/first"
+        android:layout_toEndOf="@+id/alco_image"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/alco_image"
+        android:src="@drawable/ic_smile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:clickable="true"
+
+        />
+
+</RelativeLayout>
