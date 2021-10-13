@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Alcoholic beverages</string>
     <string name="first">First</string>
+    <string name="StartDay">Начать день</string>
+    <string name="helloText">Привет, алкаш</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
